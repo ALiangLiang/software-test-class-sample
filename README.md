@@ -1,6 +1,6 @@
 # Software-test-class-sample
-[![Build Status](https://travis-ci.org/lihungte96/software-test-class-sample.svg?branch=master)](https://travis-ci.org/lihungte96/software-test-class-sample)
-[![codecov](https://codecov.io/gh/lihungte96/software-test-class-sample/branch/master/graph/badge.svg)](https://codecov.io/gh/lihungte96/software-test-class-sample)
+[![Build Status](https://travis-ci.org/ALiangLiang/software-test-class-sample.svg?branch=master)](https://travis-ci.org/ALiangLiang/software-test-class-sample)
+[![codecov](https://codecov.io/gh/ALiangLiang/software-test-class-sample/branch/master/graph/badge.svg)](https://codecov.io/gh/ALiangLiang/software-test-class-sample)
 
 Software test class sample code
 
