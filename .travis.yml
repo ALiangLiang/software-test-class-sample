@@ -1,0 +1,16 @@
+language: cpp
+os:
+  - linux
+compiler:
+  - g++
+install:
+  - sudo pip install codecov
+script: # -C parameter is for makefileDir
+  - make -C makefileDir
+  - make -C makefileDir test
+  - make -C makefileDir gcov
+branches:
+  only:
+    - master
+after_success:
+  - codecov -t f6f67031-c5d1-4309-996e-c11005615c46 -X gcov # $$$$$ is your private token
