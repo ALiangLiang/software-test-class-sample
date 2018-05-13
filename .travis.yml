@@ -6,11 +6,11 @@ compiler:
 install:
   - sudo pip install codecov
 script: # -C parameter is for makefileDir
-  - make -C makefileDir
-  - make -C makefileDir test
-  - make -C makefileDir gcov
+  - make -C make
+  - make -C make test
+  - make -C make gcov
 branches:
   only:
     - master
 after_success:
-  - codecov -t f6f67031-c5d1-4309-996e-c11005615c46 -X gcov # $$$$$ is your private token
+  - codecov -t f6f67031-c5d1-4309-996e-c11005615c46 -X gcov
